@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 defusedxml = "*"
+pandas = "*"
+lxml = "*"
 
 [dev-packages]
 rope = "*"
@@ -15,6 +17,7 @@ isort = "*"
 flake8 = "*"
 pytest-cov = "*"
 autopep8 = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
